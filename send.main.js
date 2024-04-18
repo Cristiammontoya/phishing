@@ -2,18 +2,18 @@ const nodemailer = require('nodemailer');
 
 exports.handler = async (event) => {
     const transporter = nodemailer.createTransport({
-        host: 'smtp.example.com',
+        host: 'smtp-mail.outlook.com',
         port: 587,
         secure: false,
         auth: {
-            user: 'tu_correo@example.com',
-            pass: 'tu_contraseña'
+            user: 'cristiammontoya12@outlook.com',
+            pass: ''
         }
     });
 
     const mailOptions = {
-        from: 'tu_correo@example.com',
-        to: 'correo_destinatario@example.com',
+        from: 'cristiammontoya12@outlook.com',
+        to: 'cristiammontoya12@gmail.com',
         subject: 'Asunto del correo',
         text: 'Contenido del correo'
     };
