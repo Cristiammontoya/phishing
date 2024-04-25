@@ -7,7 +7,7 @@ exports.handler = async (event) => {
         secure: false,
         auth: {
             user: 'cristiammontoya12@outlook.com',
-            pass: ''
+            pass: 'dgbpzaimemgdbdvt'
         }
     });
 
@@ -15,7 +15,7 @@ exports.handler = async (event) => {
         from: 'cristiammontoya12@outlook.com',
         to: 'cristiammontoya12@gmail.com',
         subject: 'Asunto del correo',
-        text: 'Contenido del correo'
+        text: 'Gracias por registrarte. Tu emasil es: {} '
     };
 
     try {
